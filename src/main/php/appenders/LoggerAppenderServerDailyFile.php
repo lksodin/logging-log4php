@@ -35,7 +35,7 @@ class LoggerAppenderServerDailyFile extends LoggerAppenderDailyFile {
 
   /**
    * Determines target file. Replaces %d in file path with a date.
-   * Replaces %s in file path with a server ip or uname.
+   * Replaces %s in file path with a server ip or uname -n.
    */
   protected function getTargetFile()
   {
