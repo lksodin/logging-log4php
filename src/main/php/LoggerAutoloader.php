@@ -132,6 +132,7 @@ class LoggerAutoloader {
     'LoggerRendererMap' => '/renderers/LoggerRendererMap.php',
     'LoggerRenderer' => '/renderers/LoggerRenderer.php',
     'LoggerRendererJSON' => '/renderers/LoggerRendererJSON.php',
+    'LoggerRendererVarDump' => '/renderers/LoggerRendererVarDump.php',
   );
 
   /**
